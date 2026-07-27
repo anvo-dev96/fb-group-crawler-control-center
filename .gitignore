@@ -18,6 +18,8 @@
 # misc
 .DS_Store
 *.pem
+.agents/
+.claude/
 
 # debug
 npm-debug.log*
@@ -30,6 +32,10 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+# local app data
+/data/
+/server/state/
 
 # typescript
 *.tsbuildinfo
