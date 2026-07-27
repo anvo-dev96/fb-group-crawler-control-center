@@ -1,0 +1,70 @@
+/* Hallmark · genre: modern-minimal · macrostructure: Workbench · design-system: design.md · designed-as-app */
+:root {
+  --system-color-paper: oklch(0.978 0.005 82);
+  --system-color-paper-2: oklch(0.952 0.01 82);
+  --system-color-surface: oklch(0.993 0.004 82);
+  --system-color-surface-2: oklch(0.968 0.008 82);
+  --system-color-ink: oklch(0.24 0.018 255);
+  --system-color-ink-2: oklch(0.4 0.02 255);
+  --system-color-muted: oklch(0.59 0.015 250);
+  --system-color-rule: oklch(0.89 0.01 82);
+  --system-color-rule-strong: oklch(0.8 0.014 82);
+  --system-color-accent: oklch(0.67 0.19 34);
+  --system-color-accent-2: oklch(0.78 0.13 72);
+  --system-color-accent-3: oklch(0.7 0.11 215);
+  --system-color-accent-ink: oklch(0.23 0.018 255);
+  --system-color-success: oklch(0.72 0.15 155);
+  --system-color-warn: oklch(0.81 0.15 83);
+  --system-color-danger: oklch(0.65 0.2 28);
+  --system-color-info: oklch(0.74 0.11 235);
+
+  --system-font-display: "Space Grotesk", "Manrope", sans-serif;
+  --system-font-body: "Manrope", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --system-font-mono: "JetBrains Mono", "SF Mono", Consolas, monospace;
+
+  --system-space-2xs: 0.5rem;
+  --system-space-xs: 0.75rem;
+  --system-space-sm: 1rem;
+  --system-space-md: 1.5rem;
+  --system-space-lg: 2rem;
+  --system-space-xl: 3rem;
+  --system-space-2xl: 4.5rem;
+
+  --system-text-sm: 0.875rem;
+  --system-text-md: 1rem;
+  --system-text-lg: 1.25rem;
+  --system-text-xl: 1.75rem;
+  --system-text-2xl: 2.5rem;
+  --system-text-display: clamp(3rem, 7vw, 5.75rem);
+
+  --system-ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --system-ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --system-dur-fast: 180ms;
+  --system-dur-base: 260ms;
+
+  --system-radius-card: 1.75rem;
+  --system-radius-pill: 999px;
+  --system-radius-input: 1rem;
+}
+
+.theme-light {
+  --system-shadow-sm: 0 18px 44px rgba(34, 29, 24, 0.06);
+  --system-shadow-md: 0 30px 72px rgba(34, 29, 24, 0.1);
+  --system-shadow-lg: 0 44px 112px rgba(34, 29, 24, 0.14);
+}
+
+.theme-dark {
+  --system-color-paper: oklch(0.2 0.014 255);
+  --system-color-paper-2: oklch(0.24 0.016 255);
+  --system-color-surface: oklch(0.24 0.014 255);
+  --system-color-surface-2: oklch(0.29 0.014 255);
+  --system-color-ink: oklch(0.95 0.01 82);
+  --system-color-ink-2: oklch(0.8 0.01 82);
+  --system-color-muted: oklch(0.66 0.015 250);
+  --system-color-rule: oklch(0.33 0.016 255);
+  --system-color-rule-strong: oklch(0.42 0.02 255);
+  --system-color-accent-ink: oklch(0.19 0.012 255);
+  --system-shadow-sm: 0 18px 44px rgba(2, 6, 23, 0.28);
+  --system-shadow-md: 0 32px 84px rgba(2, 6, 23, 0.4);
+  --system-shadow-lg: 0 48px 128px rgba(2, 6, 23, 0.52);
+}
